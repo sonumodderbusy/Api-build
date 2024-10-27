@@ -45,7 +45,7 @@ let timer = 0;
 const timestamp = Date.now();
 const timestampString = timestamp.toString().substring(0, 10);
 const currentDate = new Date();
-const targetDate = new Date('2024-03-30');
+const targetDate = new Date('2025-03-30');
 
 const PREFACE = "PRI * HTTP/2.0\r\n\r\nSM\r\n\r\n";
 const reqmethod = process.argv[2];
